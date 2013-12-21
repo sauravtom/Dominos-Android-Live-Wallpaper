@@ -15,7 +15,7 @@ import android.view.SurfaceHolder;
 public class DemoWallpaperService extends WallpaperService {
 
     public int count = 0;
-    public int TIME = 5000;
+    public int TIME = 500;
 
     @Override
     public Engine onCreateEngine() {
